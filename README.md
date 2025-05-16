@@ -14,7 +14,6 @@ This iOS application provides a user-friendly interface to interact with a block
 - Manage blockchain nodes
 - Visualize the blockchain data
 <br/>
-<br/>
   
 ## Requirements
 
@@ -22,7 +21,6 @@ This iOS application provides a user-friendly interface to interact with a block
 - Xcode 13.0+
 - Swift 5.5+
 - A running instance of the [Swift-Blockchain](https://github.com/xiaohsun/Swift-Blockchain) server
-<br/>
 <br/>
   
 ## Setup & Installation
@@ -32,7 +30,8 @@ This iOS application provides a user-friendly interface to interact with a block
 3. Open `Blockchain_demo.xcodeproj` in Xcode
 4. Configure the server URL in the app (default is `http://localhost:8080`)
 5. Build and run the app on your device or simulator
-
+<br/>
+  
 ## Features
 
 ### Blockchain View
@@ -52,7 +51,6 @@ Manage consensus between different blockchain nodes:
 - Register new nodes
 - Resolve consensus issues by synchronizing with the longest valid chain
 <br/>
-<br/>
   
 ## Connection to Swift-Blockchain Server
 
@@ -70,7 +68,6 @@ The app communicates with the server using the following endpoints:
 - `POST /transactions/new` - Create a new transaction
 - `POST /nodes/register` - Register new nodes
 - `GET /nodes/resolve` - Resolve consensus issues
-<br/>
 <br/>
   
 ## Contact
