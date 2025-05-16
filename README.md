@@ -1,6 +1,13 @@
 # Blockchain Demo App
 
 A SwiftUI iOS application that serves as a client interface for the [Swift-Blockchain](https://github.com/xiaohsun/Swift-Blockchain) server implementation.
+
+<p align="center">
+  <img src="https://github.com/xiaohsun/Blockchain_Demo_App/raw/main/imgs/Simulator%20Screenshot%20-%202025-05-16%20at%2017.24.01.png" width="180"/>
+  <img src="https://github.com/xiaohsun/Blockchain_Demo_App/raw/main/imgs/Simulator%20Screenshot%20-%202025-05-16%20at%2017.24.26.png" width="180"/>
+  <img src="https://github.com/xiaohsun/Blockchain_Demo_App/raw/main/imgs/Simulator%20Screenshot%20-%202025-05-16%20at%2017.25.16.png" width="180"/>
+  <img src="https://github.com/xiaohsun/Blockchain_Demo_App/raw/main/imgs/Simulator%20Screenshot%20-%202025-05-16%20at%2017.25.21.png" width="180"/>
+</p>
 <br/>
 <br/>
   
