@@ -1,7 +1,9 @@
 # Blockchain Demo App
 
 A SwiftUI iOS application that serves as a client interface for the [Swift-Blockchain](https://github.com/xiaohsun/Swift-Blockchain) server implementation.
-
+<br/>
+<br/>
+  
 ## Overview
 
 This iOS application provides a user-friendly interface to interact with a blockchain server built with Swift and the Vapor framework. The app allows users to:
@@ -11,20 +13,25 @@ This iOS application provides a user-friendly interface to interact with a block
 - Create and submit new transactions
 - Manage blockchain nodes
 - Visualize the blockchain data
-
+<br/>
+<br/>
+  
 ## Requirements
 
 - iOS 15.0+ / macOS 12.0+
 - Xcode 13.0+
 - Swift 5.5+
 - A running instance of the [Swift-Blockchain](https://github.com/xiaohsun/Swift-Blockchain) server
-
+<br/>
+<br/>
+  
 ## Setup & Installation
 
-1. Clone this repository
-2. Open `Blockchain_demo.xcodeproj` in Xcode
-3. Configure the server URL in the app (default is `http://localhost:8080`)
-4. Build and run the app on your device or simulator
+1. Clone this repository and the [Swift-Blockchain](https://github.com/xiaohsun/Swift-Blockchain) repository
+2. Start the Swift-Blockchain server instance
+3. Open `Blockchain_demo.xcodeproj` in Xcode
+4. Configure the server URL in the app (default is `http://localhost:8080`)
+5. Build and run the app on your device or simulator
 
 ## Features
 
@@ -44,7 +51,9 @@ Interface for creating new transactions by specifying:
 Manage consensus between different blockchain nodes:
 - Register new nodes
 - Resolve consensus issues by synchronizing with the longest valid chain
-
+<br/>
+<br/>
+  
 ## Connection to Swift-Blockchain Server
 
 This app connects to the [Swift-Blockchain](https://github.com/xiaohsun/Swift-Blockchain) backend server, which implements:
@@ -61,20 +70,16 @@ The app communicates with the server using the following endpoints:
 - `POST /transactions/new` - Create a new transaction
 - `POST /nodes/register` - Register new nodes
 - `GET /nodes/resolve` - Resolve consensus issues
-
-## Architecture
-
-The app follows the MVVM (Model-View-ViewModel) architecture:
-
-- **Models**: Define the data structures like Block and Transaction
-- **ViewModels**: Handle business logic and communication with the blockchain server
-- **Views**: Present the UI and user interactions
-
+<br/>
+<br/>
+  
 ## Contact
 
 Author: Bo-Hsun Hsu  
 Email: bohsunhsu@gmail.com
-
+<br/>
+<br/>
+  
 ## License
 
 This project is available under the MIT License. 
